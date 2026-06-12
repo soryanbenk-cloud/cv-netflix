@@ -67,7 +67,7 @@ display: flex;
 	#rectangle {
 
 width: 250px;
-height: 135vh;
+height: 130vh;
 position: absolute;
 top:0px;
 left:0px;
@@ -80,7 +80,7 @@ border:2px solid white;
 
 	.conteneur-cv{
 position: absolute;
-top:105px;
+top:95px;
 left:400px;
 background:black;
 border:2px solid white;
