@@ -1,0 +1,90 @@
+<!Doctype>
+<head>
+	<title>cv nom netflix</title>
+	<meta charset="UTF-8">
+ 	<link rel="stylesheet" href="styleNC.css">
+</head>
+<body>
+
+	<img id="imgN" src="nom netflix.png" alt="Logo Netflix">
+<div style="color:white;">
+<a href="tel:+123456789">07 86 37 45 25</a>
+
+	<div class=placement-boite>
+	<a href="mailto:exemple@domaine.com">soryanbenk@gmail.com</a>
+	</div>
+
+	<div class=placement-boite-a>
+	4-rue-jean-baptiste-clément
+	</div>
+
+	<div class=HM>
+	HM a Brice De Nice:
+	</div>
+
+	
+</div>
+<div id="rectangle"></div>
+<div class="conteneur-cv">
+
+
+	<table>
+	
+		<th>
+			</br></br>
+			<div style="color:white;">
+				<b>EXPERIENCES:</b></br>
+				Stage d'une durée de 3 semaines
+				dans l'entreprise Kusmi Tea</br>
+				, durantlequel j'ai pu :</br>
+				Apprendre à créer et gérer des
+				événements.</br>
+				Accueillir des clients
+				Ainsi que réceptionner et envoyer
+				des colis.
+		
+			<div class="zone-images">
+				<img id="img2" src="kusmi.png">
+				<img id="img2" src="kusmi3.jpg">
+			</div>
+	
+	
+			</br></br>
+			
+			<b>A propos:</b></br>
+			Je suis actuellement en classe de 2nd 
+		
+
+				<a href=https://www.onisep.fr/ressources/univers-formation/formations/lycees/classe-de-2de-professionnelle-metiers-des-					transitions-numerique-et-energetique>TNE</a> au lycée jacques brel
+
+
+			</br>
+				(transition numérique et énergétique)
+			</br> 		
+				et prévois 
+			</br>	
+				une future première
+
+				<a href=https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-cybersecurite-informatique-et-reseaux-				electronique> CIEL </a>
+	
+				. Je suis
+				ponctuel,</br>
+				 respectueux ainsi qu'appliqué. </br>Je
+				souhaite plus tard devenir développeur.</br>
+				 <img id="img2" src="lycée.png">
+			</br></br>
+
+
+
+				<b>compétences:</b></br>
+				base en informatique.</br>
+                		<img id="img2" src="technologia.gif">
+			</div>
+		</th>
+	</table>
+</div>
+<video id="video1" width="300px" muted playsinline>
+	<source src="B-D-Nice.mp4" type="video/mp4">
+</video>
+<script src="scriptN.js"></script>
+</body>
