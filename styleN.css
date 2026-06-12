@@ -1,0 +1,129 @@
+	body{
+background-color:black;
+}
+
+
+	#imgN{
+margin-left:300px;
+height:20%;
+}
+
+
+	table{
+background-color:black;
+
+}
+
+
+	a{
+color:white;
+}
+
+
+	b{
+text-decoration-line: underline;
+color:red;
+}
+
+
+	button{
+margin-top: 15px;
+margin-left:200px;
+}
+
+
+	#img2{
+width: 150px;
+ transition: 0.3s;
+}
+
+
+	#img3, #img2{
+vertical-align:middle;
+height:auto;
+width: 150px;
+margin-right: 5px;
+border-radius: 10px
+}
+
+
+	th{
+vertical-align:middle;
+text-align: left;
+}
+
+	tr img{
+margin-right:10px;
+}
+
+
+	.zone-images {
+margin-top: 1px;
+gap: 1px;
+display: flex;
+}
+
+
+	#rectangle {
+
+width: 250px;
+height: 130vh;
+position: absolute;
+top:0px;
+left:0px;
+background:black;
+z-index: -1;
+border-radius:15px;
+border:2px solid white;
+}
+
+
+	.conteneur-cv{
+position: absolute;
+top:105px;
+left:400px;
+background:black;
+border:2px solid white;
+width: autopx;
+border-radius:15px;
+height:660px;
+}
+
+	
+	.placement-boite{
+position: absolute;
+top:400px;
+left:10px;
+}
+
+
+	.placement-boite-a{
+position: absolute;
+top:700px;
+left:10px;
+}
+
+	.HM{
+position: absolute;
+top:280px;
+left:900px;
+}
+
+
+	#img2:hover{
+width:150px;
+transform: scale(1.1);
+border: 2px solid white;
+opacity:0.8;
+}
+	#video1{
+position: absolute;
+top:300px;
+left:900px;
+z-index:10;
+border: 2px solid white;
+transition: 0.3s;
+}
+	#video1:hover{
+transform: scale(1.1);
+}
