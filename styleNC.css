@@ -177,11 +177,12 @@ white-space: pre-line;
 #skipintro{
 z-index:12;
 position: absolute;
-color:black;
-border:1px solid red;
+color:grey;
+border:1px white;
 border-radius:5px;
 margin-bottom:60;
 margin-right:60;
+box-shadow: 0 0 10px white;
 }
 
 	
