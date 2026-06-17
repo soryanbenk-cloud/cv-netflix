@@ -31,12 +31,12 @@ window.addEventListener("DOMContentLoaded", () => {
 	
 	
   if (!video) return;
-
+video.addEventListener("loadedmetadata", () => {
 video.muted = true;
 video.playsInline = true;
 video.currentTime = 0;
 video.play();
-
+});
 	if(!skipBtn) return;
 	skipBtn.addEventListener("click", () => {
 video.currentTime = 5;
