@@ -27,14 +27,17 @@ window.addEventListener("DOMContentLoaded", () => {
 
 window.addEventListener("DOMContentLoaded", () => {
   const video = document.getElementById("start");
-
+	const skipBtn= document.getElementById("skip");
+	
+	
   if (!video) return;
 
 video.muted = true;
 video.playsInline = true;
 video.currentTime = 5;
 video.play();
-
+	button.addEventListener("clic"=>;
+video.currentTime = 5;
 
   video.addEventListener("ended", () => {
      video.style.opacity = "0";
