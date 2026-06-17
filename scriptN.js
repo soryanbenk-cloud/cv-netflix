@@ -48,12 +48,14 @@ window.addEventListener("DOMContentLoaded", () => {
     if (skipBtn) {
         skipBtn.addEventListener("click", () => {
             hideVideo();
+			skipBtn.style.display = "none";
         });
     }
 
     // fin de la vidéo
     video.addEventListener("ended", () => {
         hideVideo();
+		skipBtn.style.display = "none";
     });
 });
 	document.addEventListener("DOMContentLoaded", () => {
