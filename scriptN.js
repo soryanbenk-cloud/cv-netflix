@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 window.addEventListener("DOMContentLoaded", () => {
     const video = document.getElementById("start");
-    const skipBtn = document.getElementById("skip");
+    const skipBtn = document.getElementById("skipintro");
 
     if (!video) return;
 
