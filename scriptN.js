@@ -37,7 +37,7 @@ video.playsInline = true;
 video.currentTime = 0;
 video.play();
 
-	if(!skipBtn) return;
+	if(skipBtn);
 	skipBtn.addEventListener("click", () => {
 	video.currentTime = 5;
   video.style.opacity = "0";
