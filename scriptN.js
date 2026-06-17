@@ -39,10 +39,13 @@ video.play();
 });
 	if(!skipBtn) return;
 	skipBtn.addEventListener("click", () => {
-video.currentTime = 5;
- });
-
-
+	video.currentTime = 5;
+  video.style.opacity = "0";
+	setTimeout(() => {
+            video.style.display = "none";
+        } ,300);
+  });
+});
   video.addEventListener("ended", () => {
      video.style.opacity = "0";
 	setTimeout(() => {
