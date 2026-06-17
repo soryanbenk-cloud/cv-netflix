@@ -175,6 +175,7 @@ white-space: pre-line;
 
 }
 #skipintro{
+z-index:12;
 position: absolute;
 color:black;
 border:1px solid red;
