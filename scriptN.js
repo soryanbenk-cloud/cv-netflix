@@ -38,7 +38,7 @@ video.currentTime = 5;
 video.play();
 
 	if(!skipBtn) return;
-	button.addEventListener("click", () => {
+	skipBtn.addEventListener("click", () => {
 video.currentTime = 5;
  });
 
