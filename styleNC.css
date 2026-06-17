@@ -1,10 +1,13 @@
 	body{
 background-color:black;
+margin: 0;
+padding: 0;
+height: 100%;
 }
 
 
 	#imgN{
-margin-left:300px;
+margin-left:365px;
 height:20%;
 }
 
@@ -21,21 +24,32 @@ color:white;
 
 
 	b{
+font-size:24px;
 text-decoration-line: underline;
 color:red;
+text-align:middle;
 }
 
 
 	button{
-margin-top: 15px;
-margin-left:200px;
+
+
+color:black;
+border:1px solid red;
+border-radius:5px;
 }
 
 
-	#img2{
-width: 150px;
- transition: 0.3s;
+	
+	#img4{
+position: absolute;
+top:585px;
+left:160px;
+width: 100px;
+transition: 0.3s;
+border-radius: 10px;
 }
+
 
 
 	#img3, #img2{
@@ -43,7 +57,9 @@ vertical-align:middle;
 height:auto;
 width: 150px;
 margin-right: 5px;
-border-radius: 10px
+margin-top: 10px;
+border-radius: 10px;
+transition: 0.3s;
 }
 
 
@@ -80,13 +96,13 @@ border:2px solid white;
 
 	.conteneur-cv{
 position: absolute;
-top:90px;
+top:105px;
 left:400px;
 background:black;
 border:2px solid white;
 width: autopx;
 border-radius:15px;
-height:670px;
+height:660px;
 }
 
 	
@@ -110,8 +126,16 @@ left:900px;
 }
 
 
-	#img2:hover{
+	#img3:hover{
 width:150px;
+transform: scale(1.1);
+border: 2px solid white;
+opacity:0.8;
+}
+
+
+	#img4:hover{
+width:120px;
 transform: scale(1.1);
 border: 2px solid white;
 opacity:0.8;
@@ -123,7 +147,30 @@ left:900px;
 z-index:10;
 border: 2px solid white;
 transition: 0.3s;
+border-radius: 10px;
 }
 	#video1:hover{
 transform: scale(1.1);
+}
+
+	#start{
+position: fixed;
+top:0px;
+left:0px;
+transition: opacity 0.3s;
+z-index:11;
+width:100vw;
+height: 100vh;
+  object-fit: cover;
+}
+.glow {
+  box-shadow:0 0 35px red;
+}
+.nono {
+white-space: pre-line;
+
+}
+.nonoX {
+white-space: pre-line;
+
 }
