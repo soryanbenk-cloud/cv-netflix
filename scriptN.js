@@ -36,8 +36,12 @@ video.muted = true;
 video.playsInline = true;
 video.currentTime = 5;
 video.play();
-	button.addEventListener("clic"=>;
+
+	if(!skipBtn) return;
+	button.addEventListener("click", () => {
 video.currentTime = 5;
+ });
+
 
   video.addEventListener("ended", () => {
      video.style.opacity = "0";
