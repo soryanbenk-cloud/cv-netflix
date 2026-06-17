@@ -23,7 +23,6 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
 window.addEventListener("DOMContentLoaded", () => {
     const video = document.getElementById("start");
     const skipBtn = document.getElementById("skip");
@@ -31,7 +30,6 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!video) return;
 
     function hideVideo() {
-        video.pause();
         video.style.opacity = "0";
 
         setTimeout(() => {
@@ -41,25 +39,23 @@ window.addEventListener("DOMContentLoaded", () => {
 
     video.muted = true;
     video.playsInline = true;
-    video.autoplay = true;
 
-    video.addEventListener("canplay", () => {
-        video.play().catch(err => {
-            console.log("Autoplay bloqué :", err);
-        });
+    video.play().catch(err => {
+        console.log("Erreur vidéo :", err);
     });
 
+    // bouton skip
     if (skipBtn) {
         skipBtn.addEventListener("click", () => {
             hideVideo();
         });
     }
 
+    // fin de la vidéo
     video.addEventListener("ended", () => {
         hideVideo();
     });
 });
-
 	document.addEventListener("DOMContentLoaded", () => {
 const button =document.getElementById("button");
 
