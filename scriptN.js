@@ -24,35 +24,41 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
 window.addEventListener("DOMContentLoaded", () => {
-  const video = document.getElementById("start");
-	const skipBtn= document.getElementById("skip");
-	
-	
-  if (!video) return;
+    const video = document.getElementById("start");
+    const skipBtn = document.getElementById("skip");
 
-video.muted = true;
-video.playsInline = true;
-video.currentTime = 0;
-video.play();
+    if (!video) return;
 
-	if(skipBtn);
-	skipBtn.addEventListener("click", () => {
-	video.currentTime = 5;
-  video.style.opacity = "0";
-	setTimeout(() => {
+    function hideVideo() {
+        video.pause();
+        video.style.opacity = "0";
+
+        setTimeout(() => {
             video.style.display = "none";
-        } ,300);
-});
-  video.addEventListener("ended", () => {
-     video.style.opacity = "0";
-	setTimeout(() => {
-            video.style.display = "none";
-        } ,300);
-  });
-});
+        }, 300);
+    }
 
+    video.muted = true;
+    video.playsInline = true;
+    video.autoplay = true;
+
+    video.addEventListener("canplay", () => {
+        video.play().catch(err => {
+            console.log("Autoplay bloqué :", err);
+        });
+    });
+
+    if (skipBtn) {
+        skipBtn.addEventListener("click", () => {
+            hideVideo();
+        });
+    }
+
+    video.addEventListener("ended", () => {
+        hideVideo();
+    });
+});
 
 	document.addEventListener("DOMContentLoaded", () => {
 const button =document.getElementById("button");
