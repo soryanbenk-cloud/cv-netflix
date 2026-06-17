@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 video.muted = true;
 video.playsInline = true;
-video.currentTime = 5;
+video.currentTime = 0;
 video.play();
 
 	if(!skipBtn) return;
