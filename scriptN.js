@@ -44,7 +44,6 @@ video.play();
 	setTimeout(() => {
             video.style.display = "none";
         } ,300);
-  });
 });
   video.addEventListener("ended", () => {
      video.style.opacity = "0";
